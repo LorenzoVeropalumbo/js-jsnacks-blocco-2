@@ -6,6 +6,7 @@ console.log(largeArrey)
 
 // calcolo del ciclo
 while(smallArrey.length < largeArrey.length) {
+
   let randomvalue = Math.floor(Math.random() * 100) + 1;
   smallArrey.push(randomvalue);
   // printo dli array mentre si popolano
